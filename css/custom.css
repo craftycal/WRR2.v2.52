@@ -1,8 +1,14 @@
+
+
 body {
   font-family: 'Muli', sans-serif;
   width: 90%;
   margin: 0 auto;
   font-size: 16px;
+}
+
+.contact-details {
+  min-height: 200px;
 }
 
 .red {
@@ -15,8 +21,7 @@ nav {
 }
 
 nav .navbar {
-  margin-left: none;
-  margin-right: none;
+width: 100%;
   border-bottom: none;
   border: 0 !important;
 }
@@ -54,10 +59,16 @@ nav a:active {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  padding: 10px 4px 0 4px;
+  margin-top: 75px;
+width: 90%;
+height: 30px;
+padding: 10px;
+ position: fixed;
+   bottom: 0;
+}
 
+.footer p {
+  text-align: right;
 }
 
 .text-muted {
@@ -66,7 +77,7 @@ nav a:active {
 }
 
 .background {
- background-image: url(../images/3.jpg);
+ background-image: url(../images/image22.jpg);
 background-position: center;
 background-size: 100%;
 }
@@ -83,3 +94,53 @@ background-size: 100%;
    margin-left: 10%;
    margin-right: 10%;
  }
+
+ .careNav {
+   list-style:none;
+   padding: 10px ;
+   background-color: #eee;
+   border-radius: 5px;
+ }
+
+ .careNav li a {
+   color: #dc544b;
+   margin: 4px;
+ }
+
+ .link:hover {
+   color: #dc544b;
+   text-decoration: none;
+ }
+ .link {
+   color: #1485CC;
+ }
+ .fa {
+   position: relative;
+   top: 0.2em;
+ }
+
+ #avaliable {
+   margin-bottom: 20px;
+ }
+
+ #avaliable img {
+   float: left;
+   width: 300px;
+   margin: 20px;
+   height: 200px;
+ }
+
+ @media (max-width: 800px) {
+.careNav {
+  display: none;
+}
+   }
+
+   @media (max-width: 767px) {
+     #avaliable img {
+       width: 100%;
+       margin: 20px;
+       height: inherit;
+
+     }
+     }
