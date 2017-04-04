@@ -19,8 +19,7 @@ nav {
 }
 
 nav .navbar {
-  margin-left: none;
-  margin-right: none;
+width: 100%;
   border-bottom: none;
   border: 0 !important;
 }
@@ -58,10 +57,16 @@ nav a:active {
 }
 
 .footer {
-  width: 90%;
-  position: fixed;
-  bottom: 0;
-  padding: 10px 4px 0 4px;
+  margin-top: 75px;
+width: 90%;
+height: 30px;
+padding: 10px;
+ position: fixed;
+   bottom: 0;
+}
+
+.footer p {
+  text-align: right;
 }
 
 .text-muted {
@@ -70,7 +75,7 @@ nav a:active {
 }
 
 .background {
- background-image: url(http://placehold.it/900x200);
+ background-image: url(../images/image22.jpg);
 background-position: center;
 background-size: 100%;
 }
@@ -89,11 +94,15 @@ background-size: 100%;
  }
 
  .careNav {
-   list-style:none; padding:0 20px 0 0;
+   list-style:none;
+   padding: 10px ;
+   background-color: #eee;
+   border-radius: 5px;
  }
 
  .careNav li a {
    color: #dc544b;
+   margin: 4px;
  }
 
  .link:hover {
@@ -101,7 +110,7 @@ background-size: 100%;
    text-decoration: none;
  }
  .link {
-   color: #555555;
+   color: #1485CC;
  }
  .fa {
    position: relative;
