@@ -121,9 +121,9 @@ background-size: 100%;
 
  #avaliable img {
    float: left;
-   width: 300px;
+   max-width: 300px;
    margin: 20px;
-   height: 200px;
+
  }
 
  @media (max-width: 800px) {
