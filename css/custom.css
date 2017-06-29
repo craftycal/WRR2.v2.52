@@ -126,6 +126,14 @@ background-size: 100%;
 
  }
 
+ /*.mobile {
+    display: none;
+ }
+ .desktop {
+   display: block;
+
+ }*/
+
  @media (max-width: 800px) {
 .careNav {
   display: none;
@@ -139,4 +147,19 @@ background-size: 100%;
        height: inherit;
 
      }
+
+     .logo {
+margin: 0 auto;
+
+     }
+
+     .background {
+background-image:none;
+     }
+/*.mobile {
+  display: block;
+}
+.desktop {
+  display: none;
+}*/
      }
