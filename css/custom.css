@@ -175,7 +175,6 @@ nav a:active {
   float: left;
   max-width: 50%;
   padding: 20px;
-float: left;
 }
 
 /*.mobile {
@@ -244,10 +243,11 @@ display: block;
 
 @media (max-width: 767px) {
   #avaliable img {
-    width: 100%;
+    width: 100% !important;
+    max-width: 100%;
     margin: 20px;
     height: inherit;
-
+margin-left: 0px;
   }
 
   .logo {
