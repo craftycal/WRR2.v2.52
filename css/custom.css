@@ -29,7 +29,7 @@ body {
 }
 
 .widthkeeper img {
-  max-width: 600px;
+  width: 100%;
   margin: 6px auto;
 }
 
@@ -177,14 +177,6 @@ nav a:active {
   padding: 20px;
 }
 
-/*.mobile {
-display: none;
-}
-.desktop {
-display: block;
-
-}*/
-
 @media (max-width: 800px) {
   .careNav {
     display: none;
@@ -247,21 +239,15 @@ display: block;
     max-width: 100%;
     margin: 20px;
     height: inherit;
-margin-left: 0px;
+    margin-left: 0px;
   }
 
   .logo {
     margin: 0 auto;
-
   }
 
   .background {
     background-image:none;
   }
-  /*.mobile {
-  display: block;
-}
-.desktop {
-display: none;
-}*/
+
 }
