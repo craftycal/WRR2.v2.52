@@ -125,19 +125,33 @@ nav a:active {
 
 .socialLinks {
   list-style-type: none;
-  padding: 0px;
   display: inline-block;
 }
 
 .socialLinks li {
   width: 100%;
   margin: 4px;
+  height: 60px;
+}
+
+.socialLinks span {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.socialLinks li i {
+  font-size: 40px;
+  vertical-align: middle;
 }
 
 .socialLinks li a {
-    width: 100%;
+  width: 100%;
 }
 
+.socialLinks .fa-envelope {
+  position: relative !important:
+top: -10px !important;
+}
 
 .careNav {
   list-style:none;
@@ -155,12 +169,9 @@ nav a:active {
   color: #dc544b;
   text-decoration: none;
 }
+
 .link {
   color: #1485CC;
-}
-.fa {
-  position: relative;
-  top: 0.2em;
 }
 
 .verborder {
@@ -177,9 +188,23 @@ nav a:active {
   padding: 20px;
 }
 
+.marginTop {
+  margin-top: 8%;
+}
+
+.img-cap {
+  width: 100%;
+}
+
+
 @media (max-width: 800px) {
   .careNav {
     display: none;
+  }
+
+  .marginTop {
+    margin-top: 0px;
+    text-align: center;
   }
 
   body {
